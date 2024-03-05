@@ -16,23 +16,44 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0px;
 }
 
 header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-nav a {
-
-}
-
-nav a:hover{
-
+.logo-booki{
+    width: 61.09px;
+    height: 19px;
+    padding: 30px 50px 30px 0px;
 }
 
 nav {
+    display: flex;
+    height: 35px;
+    width: 19%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
+nav a{
+    border-top: 2px solid transparent;
+    padding-top: 5%;
+}
+
+nav a:hover{
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+    cursor: pointer;
+}
+
+.form-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .filtre-section{
