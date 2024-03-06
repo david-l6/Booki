@@ -50,10 +50,77 @@ nav a:hover{
     cursor: pointer;
 }
 
+.info-group{
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-size: 22px;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
 .form-section{
     display: flex;
     align-items: center;
-    gap: 1rem;
+}
+
+.form-section .fa-solid{
+    width: 50px;
+    height: 49px;
+    color: black;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input{
+    width: 195px;
+    height: 49px;
+    border: 1px solid var(--main-bg-color);
+    border-left: none;
+    border-right: none;
+    padding: 0px
+}
+
+.search-input:hover{
+    cursor: text;
+}
+
+.search-input::placeholder{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.search-input:focus{
+    outline: none;
+}
+
+.search-button{
+    width: 132px;
+    height: 51px;
+    color: white;
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    border-radius: 0px 15px 15px 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.search-button:hover{
+    cursor: pointer;
 }
 
 .filtre-section{
@@ -78,6 +145,22 @@ nav a:hover{
 .filtre:hover{
     background-color: #DEEBFF;
     cursor: pointer;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info .fa-solid{
+    border: 1px solid var(--main-bg-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
 }
 
 .main-container {
