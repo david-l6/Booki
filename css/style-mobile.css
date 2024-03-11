@@ -1,6 +1,127 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .main-container {
+        padding: 0;
+    }
+
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-booki {
+        padding-left: 50px;
+    }
+
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        gap: 0;
+        margin-bottom: 30px;
+    }
+
+    nav a {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border-bottom: 2px solid var(--main-bg-color);
+        padding-bottom: 4.25%;
+        padding-top: 0;
+    }
+
+    nav a:hover{
+        border-bottom: 2px solid var(--main-color);
+        border-top: none;
+    }
+
+    .info-group{
+        gap: 35px;
+        justify-content: space-between;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1{
+        width: 335px;
+    }
+
+    .text p{
+        width: 335px; 
+    }
+
+    .form-section {
+        justify-content: center;
+    }
+
+    .search-input{
+        border-top: -20px;
+        border-bottom: -20px;
+    }
+
+    .search-button{
+        display: none;
+    }
+
+    .form-section .fa-magnifying-glass{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 49px;
+        color: white;
+        border: 1px solid var(--main-color);
+        background-color: var(--main-color);
+        border-radius: 15px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .search-icon{
+        display: flex;
+    }
+
+    .form-section .search-icon {
+        padding: 0px;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .search-input {
+        width: 236px;
+    }
+
+    .filtre-section{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+
+    .filtre-sous-section{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .filtre-section h3{
+        margin: 0;
+    }
+
+    .filtre{
+        width: 100%;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column-reverse;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+    .populaires-cards a {
+        width: 100%;
     }
 }
