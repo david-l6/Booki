@@ -89,16 +89,24 @@
     }
 
     .filtre-sous-section{
-        width: 100%;
-        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 10px;
+    }
+
+    .filtre{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        width: 39.85%;
     }
 
     .filtre-section h3{
         margin: 0;
     }
 
-    .filtre{
-        width: 100%;
+    .filtre p{
+        font-size: 14px;
     }
 
     .info{
