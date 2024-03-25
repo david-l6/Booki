@@ -159,10 +159,11 @@ input:focus::placeholder {
     display: flex;
     align-items: center;
     gap: 13px;
-    p{
-        font-weight: 800;
-        margin: 0;
-    }
+}
+
+.filtre p{
+    font-weight: 800;
+    margin: 0;
 }
 
 .filtre:hover{
